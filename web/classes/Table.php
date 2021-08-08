@@ -53,13 +53,13 @@ class Table
     public static function thead()
     {
         ?>
-        <thead>
+        <thead class="table-bordered table-primary">
         <!--        <tr class="position-fixed fixed_custom">-->
         <tr>
             <th></th>
             <th colspan="3" class="text-center">Dutch</th>
         </tr>
-        <tr class="sticky-ths table-dark">
+        <tr class="sticky-ths">
             <th>Engels</th>
             <td><a href="/web/index.php?tense=infinitive">Infinitive</a></td>
             <td><a href="/web/index.php?tense=past">Past</a></td>

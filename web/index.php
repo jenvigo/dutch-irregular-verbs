@@ -21,11 +21,7 @@ use App\Table;
             <table class="table">
                 <?php Table::thead(); ?>
                 <tbody>
-                <tr>
-                    <td>
-                        <div style="height: 20px"></div>
-                    </td>
-                </tr>
+
                 <?php
 
                 include_once $_SERVER["DOCUMENT_ROOT"] . '/web/verbs.php';
