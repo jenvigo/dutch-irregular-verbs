@@ -1,0 +1,13 @@
+body{
+  .fixed_custom {
+    z-index: 99;
+    background: white;
+    width: 100%;
+  }
+}
+
+.sticky-ths {
+  .th{
+    @extend .sticky-top;
+  }
+}

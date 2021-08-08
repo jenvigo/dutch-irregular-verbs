@@ -57,7 +57,7 @@ function input_radio_link(index) {
     scroll_y = Math.round(scroll_y);
     console.log(scroll_y);
     setCookie('scroll_y', scroll_y, 1);
-    location = 'index.php?input_radio=' + index;
+    location = 'web/index.php?input_radio=' + index;
 
 }
 

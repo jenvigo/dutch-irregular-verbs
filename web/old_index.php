@@ -1,53 +1,40 @@
-
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+//var_dump($_SERVER);
+include_once $_SERVER["DOCUMENT_ROOT"] . '/vendor/autoload.php';
+use App\Table;
+?>
+<html>
 <head>
-    <link href='https://fonts.googleapis.com/css?family=Lato'
-          rel='stylesheet' type='text/css'>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
-          rel="stylesheet">
+    <?= Table::styles();?>
 
-    <link rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-          crossorigin="anonymous">
 </head>
+<body>
 <div class="container">
 
     <div class="row">
 
-        <div class="col-md-12">
-            <div class="row">
-                <div class="col-md-1 ml-2">
-                    <button class="btn btn-primary" type="button" id="btn_del_loc_storage">Reset
-                    </button>
-                </div>
-            </div>
-        </div>
         <div class="col-md-6">
             <table class="table">
-                <tr>
-                    <th>
-                        <!--                    <button>Add to favs</button>-->
-                    </th>
-                    <th>Engels</th>
-                    <th>Nederland</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
+                <tr class="position-fixed fixed_custom">
+<!--                <tr class="position-fixed fixed_custom">-->
+                    <td>Engels</td>
                     <td>
                         <input class="input_radio" type="radio"
                                name="tense"
-                               value="0"  checked >
+                               value="0" checked>
                     </td>
                     <td>
                         <input class="input_radio" type="radio"
                                name="tense"
-                               value="1" >
+                               value="1">
                     </td>
                     <td>
                         <input class="input_radio" type="radio"
                                name="tense"
-                               value="2" >
+                               value="2">
                     </td>
                 </tr>
                 <tr>
@@ -767,17 +754,17 @@
                     <td>
                         <input class="input_radio" type="radio"
                                name="tense"
-                               value="0"  checked >
+                               value="0" checked>
                     </td>
                     <td>
                         <input class="input_radio" type="radio"
                                name="tense"
-                               value="1" >
+                               value="1">
                     </td>
                     <td>
                         <input class="input_radio" type="radio"
                                name="tense"
-                               value="2" >
+                               value="2">
                     </td>
                 </tr>
                 <tr>
@@ -1471,8 +1458,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
-    <script src="Quiz.js"></script>
+    <script src="js/Quiz.js"></script>
 
 
     <script src="logic.js?v=174"></script>
 </div>
+</body>
+</html>
