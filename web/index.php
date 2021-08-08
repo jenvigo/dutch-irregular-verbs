@@ -40,20 +40,6 @@ use App\Table;
                     Table::create_tr($english, $infinitive, $past, $participle);
                 endforeach; ?>
 
-                <tr>
-                    <td>to stay</td>
-                    <td><input class="input_text" type="text"
-                               value="" answer="blijven "></td>
-                    <td>
-                        <a href="javascript:void(0)"
-                           onclick="input_radio_link(1)"> bleef </a>
-                    </td>
-                    <td>
-                        <a href="javascript:void(0)"
-                           onclick="input_radio_link(2)"> gebleven
-                        </a>
-                    </td>
-                </tr>
                 </tbody>
             </table>
 
