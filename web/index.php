@@ -5,7 +5,7 @@ error_reporting(E_ALL);
 //var_dump($_SERVER["DOCUMENT_ROOT"]);
 //var_dump($_SERVER);
 if (isset($_SERVER["HEROKU_APP_DIR"])) {
-$_SERVER["DOCUMENT_ROOT"] = "/app";
+//$_SERVER["DOCUMENT_ROOT"] = "/app";
 }
 include_once $_SERVER["DOCUMENT_ROOT"] . '/vendor/autoload.php';
 
@@ -28,7 +28,7 @@ use App\Table;
 
                 <?php
 
-                include_once $_SERVER["DOCUMENT_ROOT"] . '/web/verbs.php';
+                include_once $_SERVER["DOCUMENT_ROOT"] . '/verbs.php';
 //                var_dump($verbs);
 
                 /** @var  $verbs */

@@ -61,9 +61,9 @@ class Table
         </tr>
         <tr class="sticky-ths">
             <th>Engels</th>
-            <td><a href="/web/index.php?tense=infinitive">Infinitive</a></td>
-            <td><a href="/web/index.php?tense=past">Past</a></td>
-            <td><a href="/web/index.php?tense=participle">Participle</a></td>
+            <td><a href="/index.php?tense=infinitive">Infinitive</a></td>
+            <td><a href="/index.php?tense=past">Past</a></td>
+            <td><a href="/index.php?tense=participle">Participle</a></td>
         </tr>
         </thead>
         <?php
