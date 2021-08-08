@@ -4,7 +4,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 //var_dump($_SERVER["DOCUMENT_ROOT"]);
 //var_dump($_SERVER);
-if ($_SERVER["HEROKU_APP_DIR"]) {
+if (isset($_SERVER["HEROKU_APP_DIR"])) {
 $_SERVER["DOCUMENT_ROOT"] = "/app";
 }
 include_once $_SERVER["DOCUMENT_ROOT"] . '/vendor/autoload.php';
