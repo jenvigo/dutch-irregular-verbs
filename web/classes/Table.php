@@ -59,7 +59,7 @@ class Table
             <th></th>
             <th colspan="3" class="text-center">Dutch</th>
         </tr>
-        <tr class="sticky-ths">
+        <tr class="sticky-ths table-dark">
             <th>Engels</th>
             <td><a href="/web/index.php?tense=infinitive">Infinitive</a></td>
             <td><a href="/web/index.php?tense=past">Past</a></td>

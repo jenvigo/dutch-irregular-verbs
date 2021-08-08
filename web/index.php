@@ -27,22 +27,11 @@ use App\Table;
                     </td>
                 </tr>
                 <?php
-                $verbs = [
-                        [ "to begin","beginnen", "begon" ,"begonnen"],
-//                        [ "to begin","beginnen", "begon" ,"begonnen"],
-//                        [ "to begin","beginnen", "begon" ,"begonnen"],
-//                        [ "to begin","beginnen", "begon" ,"begonnen"],
-//                        [ "to begin","beginnen", "begon" ,"begonnen"],
-//                        [ "to begin","beginnen", "begon" ,"begonnen"],
-//                        [ "to begin","beginnen", "begon" ,"begonnen"],
-//                        [ "to begin","beginnen", "begon" ,"begonnen"],
-//                        [ "to begin","beginnen", "begon" ,"begonnen"],
-//                        [ "to begin","beginnen", "begon" ,"begonnen"],
-//                        [ "to begin","beginnen", "begon" ,"begonnen"],
-//                        [ "to begin","beginnen", "begon" ,"begonnen"],
 
-                ];
+                include_once $_SERVER["DOCUMENT_ROOT"] . '/web/verbs.php';
 //                var_dump($verbs);
+
+                /** @var  $verbs */
                 foreach ($verbs as $verb):
                     $english = $verb[0];
                     $infinitive = $verb[1];
