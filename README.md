@@ -6,4 +6,7 @@ for me and my colleagues. Feel free to upgrade it or fork it.
 Uploaded in heroku:
 https://dutch-irregular-verbs.herokuapp.com/index.php?tense=infinitive
 
-Copy the .env.dist to .env and customize your variables.
+###Setup
+-Copy the .env.dist to .env and customize your variables.
+
+-Run: composer i

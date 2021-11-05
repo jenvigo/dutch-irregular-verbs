@@ -11,10 +11,11 @@ include_once $_SERVER["DOCUMENT_ROOT"] . '/vendor/autoload.php';
 
 use App\Table;
 ?>
-<html>
+<html lang="">
 <head>
-    <?= Table::styles(); ?>
+    <?php Table::styles(); ?>
 
+    <title></title>
 </head>
 <body>
 <div class="container">
