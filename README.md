@@ -10,3 +10,7 @@ https://dutch-irregular-verbs.herokuapp.com/index.php?tense=infinitive
 -Copy the .env.dist to .env and customize your variables.
 
 -Run: composer i
+
+### Contribute with this project 
+Choose any task from the category Todo and try creating a small Pull Request for it. 
+https://github.com/jenvigo/dutch-irregular-verbs/projects/2
