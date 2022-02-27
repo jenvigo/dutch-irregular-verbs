@@ -7,9 +7,9 @@ Uploaded in heroku:
 https://dutch-irregular-verbs.herokuapp.com/index.php?tense=infinitive
 
 ###Setup
--Copy the .env.dist to .env and customize your variables.
-
--Run: composer i
+-Copy the .env.dist to .env and customize your variables.<br>
+-Run: ```composer i``` <br>
+-Run: ```make docker-up-daemon```
 
 ### Contribute with this project 
 Choose any task from the category Todo and try creating a small Pull Request for it. 
